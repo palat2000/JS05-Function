@@ -3,8 +3,8 @@
 ```js
 let x = 1;
 function func() {
-  console.log(x); // *
+  console.log(x); // * error เพราะภาษารู้ว่ามีการประกาศ x ทีหลัง จึงใช้งานไม่ได้
   let x = 2;
 }
-func();
+func(); // error
 ```
