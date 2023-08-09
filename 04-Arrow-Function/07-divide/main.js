@@ -1,0 +1,1 @@
+const canDividedSeven = num => num%7==0;

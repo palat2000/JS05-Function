@@ -1,0 +1,1 @@
+const someTeamPoint = result => result == 'win'? 3: result == 'lose' ? 0 : 1;
