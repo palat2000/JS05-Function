@@ -2,10 +2,10 @@
 
 ```js
 const showModal = alert;
-showModal("Execute modal"); // *
+showModal("Execute modal"); // * alert คำว่า Execute modal
 ```
 
 ```js
 const showModal = alert();
-showModal("Execute modal"); // **
+showModal("Execute modal"); // ** error เพราะ alert คืนค่าเป็น undefined
 ```

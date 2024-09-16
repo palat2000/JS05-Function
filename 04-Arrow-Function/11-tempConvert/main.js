@@ -1,0 +1,1 @@
+const toCelsius = far => (far-32) * 5/9;

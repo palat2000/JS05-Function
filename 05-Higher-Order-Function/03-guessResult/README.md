@@ -9,5 +9,5 @@ function makeWorker() {
 }
 let name = 'John';
 let work = makeWorker();
-work(); // *
+work(); // * error เพราะ makeWorker เป็นฟังก์ชันที่ return เป็น undefined
 ```
